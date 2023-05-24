@@ -289,26 +289,28 @@ header .portfolio-row.header-wrap {
   color: var(--color2);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-out 0s;
 }
 
 .contact-info h3 {
   color: var(--color2);
   transition: all 0.3s ease-out 0s;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
-.social-link li {
+.social-links li {
   display: inline-block;
+  /* display: inline; */
   margin: 5px 10px;
 }
 
-.social-link li a {
+.social-links li a {
   color: var(--color2);
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease-out 0s;
 }
 
 .contact-info h3:hover,
-.social-link li a:hover {
+.social-links li a:hover {
   color: var(--color1);
 }
