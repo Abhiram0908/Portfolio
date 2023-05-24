@@ -305,7 +305,7 @@ header .portfolio-row.header-wrap {
 
 .contact-info h3 {
   color: var(--color2);
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
   cursor: pointer;
 }
 
@@ -317,7 +317,7 @@ header .portfolio-row.header-wrap {
 .social-links li a {
   color: var(--color2);
   font-family: "Poppins", sans-serif;
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
 }
 
 .contact-info h3:hover,
