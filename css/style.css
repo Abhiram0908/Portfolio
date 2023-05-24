@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Megrim:wght@400;700&display=swap');
 
 /* Root CSS Variable */
 
@@ -69,7 +70,7 @@ header {
   right: 0;
   z-index: 11;
   transition: 0.8s;
-  background-color: var(--bg-color1);
+  background-color: var(--bg-color2);
 }
 
 header .portfolio-row.header-wrap {
@@ -79,10 +80,16 @@ header .portfolio-row.header-wrap {
 
 .brand-name a {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 1000;
   color: var(--color1);
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Megrim";
 }
+
+/* .portfolio-container .portfolio-row .brand-name a.logo img {
+  width: 25%;
+  height: auto;
+} */
 
 .hamburger i {
   font-size: 20px;
@@ -291,16 +298,19 @@ header .portfolio-row.header-wrap {
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease-out 0s;
 }
+.contact-info a:hover{
+  color: var(--color1);
+  text-decoration: underline;
+}
 
 .contact-info h3 {
   color: var(--color2);
   transition: all 0.3s ease-out 0s;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .social-links li {
   display: inline-block;
-  /* display: inline; */
   margin: 5px 10px;
 }
 
@@ -313,4 +323,5 @@ header .portfolio-row.header-wrap {
 .contact-info h3:hover,
 .social-links li a:hover {
   color: var(--color1);
+  text-decoration: underline;
 }
