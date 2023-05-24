@@ -190,3 +190,39 @@ header .portfolio-row.header-wrap{
 }
 
 /* Download CV Button */
+
+.download-resume a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 30px;
+    transition: ease all 0.35s;
+    color: var(--color1);
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5252;
+    position: relative;
+    z-index: 1001;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.download-resume a::before {
+    background-color: #44f;
+}
+
+.download-resume a::before{
+    top: 0;
+    width: 0;
+    left: auto;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+.download-resume a:hover::before{
+    left: 0;
+    width: 100%;
+    right: auto;
+}
