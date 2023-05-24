@@ -73,6 +73,11 @@ header {
   background-color: var(--bg-color2);
 }
 
+.header-transition{
+  height: 5px;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
 header .portfolio-row.header-wrap {
   justify-content: space-between;
   align-items: center;
@@ -85,11 +90,6 @@ header .portfolio-row.header-wrap {
   /* font-family: "Poppins", sans-serif; */
   font-family: "Megrim";
 }
-
-/* .portfolio-container .portfolio-row .brand-name a.logo img {
-  width: 25%;
-  height: auto;
-} */
 
 .hamburger i {
   font-size: 20px;
@@ -150,6 +150,7 @@ header .portfolio-row.header-wrap {
   font-family: "Poppins", sans-serif;
   color: var(--color1);
   font-weight: 500;
+  font-size: large;
   letter-spacing: 3px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -157,6 +158,16 @@ header .portfolio-row.header-wrap {
 
 .welcome-text h1 {
   display: inline;
+}
+
+.welcome-text a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+.welcome-text a:hover {
+  text-decoration: underline;
+  color: var(--color1);
 }
 
 .slider-general p {
