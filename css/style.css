@@ -345,6 +345,10 @@ header .portfolio-row.header-wrap {
     font-size: 3rem;
   }
 
+  h3 {
+    font-size: 1rem;
+  }
+
   header {
     position: fixed;
     background-color: rgb(236, 241, 250);
@@ -407,5 +411,19 @@ header .portfolio-row.header-wrap {
     margin-top: 3rem;
     width: 100%;
     order: 2;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
+  
+}
+
+@media screen and (max-width: 300px) {
+  h3 {
+    font-size: 0.7rem;
   }
 }
