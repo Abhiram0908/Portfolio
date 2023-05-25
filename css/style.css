@@ -351,8 +351,10 @@ header .portfolio-row.header-wrap {
 
   header {
     position: fixed;
+    overflow: visible;
     background-color: rgb(236, 241, 250);
     border-bottom: 1px solid #eee;
+    z-index: 9999; /*because of fixed navbar*/
   }
 
   .brand-name .logo {
@@ -368,7 +370,7 @@ header .portfolio-row.header-wrap {
     background-color: rgb(236, 241, 250);
     width: 100%;
     left: 0px;
-    top: 60px;
+    top: 36px;
     padding: 15px;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
@@ -380,9 +382,10 @@ header .portfolio-row.header-wrap {
   }
 
   .portfolio-navbar ul li {
-    display: block;
+    display:block;
     margin-left: 0;
     text-align: center;
+
   }
 
   .portfolio-navbar ul li a {
