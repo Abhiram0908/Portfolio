@@ -346,7 +346,6 @@ header .portfolio-row.header-wrap {
   }
 
   header {
-    padding: 15px;
     position: fixed;
     background-color: rgb(236, 241, 250);
     border-bottom: 1px solid #eee;
